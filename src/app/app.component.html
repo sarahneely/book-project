@@ -7,10 +7,10 @@
 </div>
 <h2>Here's a list of Sarah's Favorite Books </h2>
 <ul>
-  <li *ngFor="let post of postList">
-    <img src="{{post.data.thumbnail}}" alt="">
-    {{post.data.title}}
-    {{post.data.author}}
-    {{post.data.date}}
+  <li *ngFor="let post of bookList">
+    <img src="{{book.data.thumbnail}}" alt="">
+    {{book.data.title}}
+    {{book.data.author}}
+    {{book.data.date}}
   </li>
 </ul>
